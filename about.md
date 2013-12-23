@@ -10,11 +10,11 @@ image:
   creditlink: http://mademistakes.com
 ---
 
-Vous cherchez un thème simple, responsive pour votre blog motorisé par Jekyll ? N'allez pas plus loin. Le voici : **So Simple Theme**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- créé par le designer slash illustrateurr [Michael Rose](http://mademistakes).
+Vous cherchez un thème simple, responsive pour votre blog motorisé par Jekyll ? N'allez pas plus loin. Le voici : **So Simple Theme**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- créé par <span class="h-card"[Michael Rose](http://mademistakes)</span>, designer slash illustrateur à NYC.
 
 ## So Simple Theme c'est tout cela :
 
-* Des templates responsive. Rendent bien sur les mobile, tablettes et desktop.
+* Des templates *responsive*. Rendent bien sur les mobile, tablettes et desktop.
 * Dégradation élégante dans les navigateurs plus anciens. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
 * Embellissements minimaux et animations subtiles.
 * Typographie lisible pour faire briller vos mots.
