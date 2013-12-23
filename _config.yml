@@ -1,49 +1,49 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Un Premier Projet sur Jekyll
+description:      Localisation theme jekyll sosimple
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
-#Change url to your domain. Leave localhost server or blank when working locally.
+#Modifiez l'url vers votre domaine. Laissez le serveur en localhost ou en blanc pendant que vous travaillez localement.
 url:              http://localhost:4000
 
-# Owner/author information
+# Info Propriétaire/auteur
 owner:
-  name:           Your Name
+  name:           Christophe Ducamp
   avatar:         bio-photo.jpg
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  email:          christophe@mydatalabs.com
+  # Les liens vers les silos sociaux utilisés dans le footer. Mettez à jour et retirer à votre gré.
+  twitter:  xtof_fr      
+  facebook: christophe.ducamp      
+  github: ChristopheDucamp         
   stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  linkedin: christopheducamp      
+  instagram: xtof_fr      
+  flickr: christopheducamp      
+  tumblr: xtof         
+  # Pour la paternité d'auteur Google + https://plus.google.com/authorship
+  google_plus: christophe.ducamp@gmail.com    
 
-# Analytics and webmaster tools stuff goes here
+# Les analytics et outils de webmaster se placent ici 
 google_analytics:   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
-# Links to include in top navigation
-# For external links add external: true
+# Liens à inclure tout en haut
+# Pour des liens externes ajoutez external: true
 links:
-  - title: About
+  - title: À Propos
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
+  - title: Réglage Thème
     url: /theme-setup
   - title: Made Mistakes
     url: http://mademistakes.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Paris
 future:      true
 pygments:    true
 markdown:    kramdown

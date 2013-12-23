@@ -1,33 +1,33 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Jekyll Theme
-tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
-modified: 2013-09-13
+title: À Propos du Thème Jekyll
+tags: [Jekyll, theme, simple, minimal, minimalisme, responsive]
+modified: 2013-12-23
 image:
   feature: so-simple-sample-image-4.jpg
   credit: Michael Rose
   creditlink: http://mademistakes.com
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Vous cherchez un thème simple, responsive pour votre blog motorisé par Jekyll ? N'allez pas plus loin. Le voici : **So Simple Theme**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- créé par le designer slash illustrateurr [Michael Rose](http://mademistakes).
 
-## So Simple Theme is all about:
+## So Simple Theme c'est tout cela :
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
+* Des templates responsive. Rendent bien sur les mobile, tablettes et desktop.
+* Dégradation élégante dans les navigateurs plus anciens. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
+* Embellissements minimaux et animations subtiles.
+* Typographie lisible pour faire briller vos mots.
+* Supporte les grandes images pour décorer vos posts favoris.
+* Commentaires Disqus si vous avez choisi de les activer.
+* Structure de permalien simple et claire[^1].
+* Tags pour [Open Graph](https://developers.facebook.com/docs/opengraph/) et [Twitter Cards](https://dev.twitter.com/docs/cards) pour une meilleure expérience de partage social.
+* [Page 404 personnalisable]({{ site.url }}/404.html) standard pour vous aider à partir.
+* Feuilles de style pour [mise en avant de la syntaxe](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) Pygments et Coderay afin que vos échantillons de code s'affichent joliment.
 * Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+* [Script de construction Grunt]({{ site.url }}/theme-setup/index.html#theme-development) pour faciliter le développement de thème.
+* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) pour les moteurs de recherche
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Installer le Thème Minimal Mistakes</a>
 
-[^1]: Example: *domain.com/category-name/post-title*
+[^1]: Exemple: *domain.com/category-name/post-title*

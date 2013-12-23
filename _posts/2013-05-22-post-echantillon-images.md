@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "A Post with Images"
-description: "Examples and code for displaying images in posts."
+title: "Un Post avec des Images"
+description: "Exemples et code pour afficher des images dans les posts."
 category: articles
-tags: [sample post, images, test]
+tags: [post echantillon, images, test]
 comments: true  
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+Voici quelques exemples de ce à quoi peut ressembler un post avec des images. Si vous désirez afficher deux ou trois images côte à côte de manière responsive, utilisez `figure` avec la `class`e appropriée. 
+Chaque instance de `figure` est auto-numérotée et affichée dans la légende.
 
-## Figures (for images or video)
+## Figures (pour images ou vidéo)
 
 ### One Up
 
@@ -20,40 +21,40 @@ Here are some examples of what a post with images might look like. If you want t
 
 ### Two Up
 
-Apply the `half` class like so to display two images side by side that share the same caption.
+Appliquez la classe `half` comme ceci afin d'afficher deux images côte à côte qui partagent la même légende.
 
 {% highlight html %}
 <figure class="half">
 	<img src="/images/image-filename-1.jpg">
 	<img src="/images/image-filename-2.jpg">
-	<figcaption>Caption describing these two images.</figcaption>
+	<figcaption>Légende décrivant ces deux images.</figcaption>
 </figure>
 {% endhighlight %}
 
-And you'll get something that looks like this:
+Et vous obtiendrez quelque chose qui ressemble à cela : 
 
 <figure class="half">
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<img src="http://placehold.it/600x300.jpg">
 	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Two images.</figcaption>
+	<figcaption>Deux images.</figcaption>
 </figure>
 
 ### Three Up
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+Appliquez la classe `third` comme ceci pour afficher trois images côte à côte qui partagent la même légende.
 
 {% highlight html %}
 <figure class="third">
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Caption describing these three images.</figcaption>
+	<figcaption>CapLégende décrivant ces trois images.</figcaption>
 </figure>
 {% endhighlight %}
 
-And you'll get something that looks like this:
+Et vous obtiendrez quelque chose qui ressemble à cela : 
 
 <figure class="third">
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
@@ -62,5 +63,5 @@ And you'll get something that looks like this:
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Three images.</figcaption>
+	<figcaption>Trois images.</figcaption>
 </figure>

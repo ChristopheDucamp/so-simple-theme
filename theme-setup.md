@@ -1,51 +1,51 @@
 ---
 layout: page
 permalink: /theme-setup/index.html
-title: Theme Setup
-description: "Instructions on how to install and customize the Jekyll theme So Simple."
-modified: 2013-09-11
+title: Installer le Thème
+description: "Instructions pour savoir comment installer et personnaliser le thème Jekyll So Simple."
+modified: 2013-12-23
 tags: [Jekyll, theme, install, setup]
 ---
 
-General notes and suggestions for customizing **So Simple Theme**.
+Notes Générales et suggestions pour personnaliser **So Simple Theme**.
 
-## Basic Setup for a new Jekyll site
+## Installation Basique pour un Nouveau Site Jekyll
 
-1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
-2. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
+1. [Installez Jekyll](http://jekyllrb.com) et lisez la documentation si vous ne l'avez pas encore fait.
+2. Forkez le [dépôt So Simple Theme](https://github.com/mmistakes/so-simple-theme/fork)
+3. Clonez le dépôt que vous venez de forker.
+4. Éditez `_config.yml` pour personnaliser votre site.
+5. Regardez les posts-échantillons dans `_posts` pour voir des exemples à extraire de grandes images, assignant des catégories et tags et autres data YAML.
+6. Lisez la documentation en-dessous pour une personnalisation plus poussée.
 
-<div markdown="0"><a href="https://github.com/mmistakes/so-simple-theme" class="btn">Download the Theme</a></div>
+<div markdown="0"><a href="https://github.com/mmistakes/so-simple-theme" class="btn">Téléchargez le Thème</a></div>
 
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
+**Pro-truc :** Effacez la branche `gh-pages` après l'avoir clonée et démarrez de zéro en débranchant  `master`. Il y a tout un paquet de déchets dans `gh-pages` utilisé pour le site de démo du thème dont vous ne voudrez pas sur votre site.
 {: .notice}
 
 ---
 
-## Setup for an Existing Jekyll site
+## Installation pour un Site Jekyll Existant
 
-1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and personalize content as need: `about.md`, `articles.html`, `index.html`, `tags.html`, `feed.xml`, and `sitemap.xml`.
-3. Set the following variables in your `config.yml` file:
+1. Clonez les dossiers suivants : `_includes`, `_layouts`, `assets`, et `images`.
+2. Clonez les fichiers suivants et personnalisez le contenu : `about.md`, `articles.html`, `index.html`, `tags.html`, `feed.xml`, et `sitemap.xml`.
+3. Réglez les variables suivantes dans votre fichier `config.yml` :
 
 {% highlight yaml %}
-title:            Site Title
-description:      Site description for the metas.
+title:            Titre Site
+description:      Description du site pour les metas.
 logo:             site-logo.png
 disqus_shortname: shortname
 search:           true
-#Comment out url when working locally to resolve base urls correctly
-url:              http://whatever.com
+#Retirer l'url quand vous travaillez localement pour une résolution correcte des urls de base 
+url:              http://cequevousvoulez.com
 
-# Owner/author information
+# Information Propriétaire/auteur
 owner:
-  name:           Your Name
-  avatar:         your-photo.jpg
-  email:          your@email.com
-  # Social networking links used in footer. Update and remove as you like.
+  name:           Vore Nom
+  avatar:         votre-photo.jpg
+  email:          votre@email.com
+  # Liens de silos sociaux utilisés dans le footer. Mettez à jour et retirez à votre guise.
   twitter:
   facebook:
   github:
@@ -55,14 +55,14 @@ owner:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    "http://plus.google.com/123123123123132123"
 
-# Analytics and webmaster tools stuff goes here
+# Les outils d'analytics et de webmaster se placent ici : 
 google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Links to include in top navigation
-# For external links add external: true
+# Liens à exclure dans la barre du haut
+# Pour les liens externes ajoutez external: true
 links:
   - title: About
     url: /about
@@ -72,7 +72,7 @@ links:
     url: http://google.com
     external: true
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Fuseaux horaires http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 pygments:    true
 markdown:    kramdown
@@ -83,7 +83,7 @@ permalink:   /:categories/:title
 
 ---
 
-## Folder Structure
+## Structure des Dossiers
 
 {% highlight bash %}
 so-simple-theme/
@@ -116,51 +116,51 @@ so-simple-theme/
 
 ---
 
-## Customization
+## Personnalisation
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url`[^1] or else you will get a bunch of broken links because they are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
+La plupart des variables trouvées ici sont utilisées dans les fichiers .html trouvées dans  `_includes` si vous avez besoin d'ajouter ou ôter quoi que ce soit. Un bon endroit pour démarrer serait de modifier les title, tagline, description et url de votre site. Quand vous travaillez localement, mettez en commentaire `url`[^1] ou sinon vous ramasserez un paquet de liens brisés parce qu'ils sont absolus et préfixés avec `{{ "{{ site.url " }}}}` dans les différents `_includes` et `_layouts`. Souvenez vous de dé-commenter `url` au moment de construire pour le déploiement ou de pousser sur votre branche **gh-pages**...
 
-#### Disqus Comments
+#### Commentaires Disqus 
 
-Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its front matter:
+Créez un compte [Disqus](http://disqus.com) et modifiez `disqus_shortname` dans `_config.yml` vers le  *shortname* Disqus que vous venez d'installer. Pour autoriser le commentaire sur un post, ajoutez ceci au front matter : 
 
 {% highlight yaml %}
 comments: true
 {% endhighlight %}
 
-#### Owner/Author Information
+#### Information Propriétaire/Auteur
 
-Change your name, and avatar photo (200x200 pixels or larger), email, and social networking urls. If you want to link to an external image on Gravatar or something similiar you'll need to edit the path in `head.html` since it assumes it is located in `/images`.
+Modifiez votre nom et votre photo d'avatar (200x200 pixels ou plus grande), e-mail et urls de silos sociaux. Si vous voulez produire un lien vers une image externe sur Gravatar ou quelque chose d'équivalent, vous devrez modifier le chemin dans `head.html` parce qu'il suppose par défaut qu'il est situé dans `/images`.
 
-Including a link to your Google+ profile has the added benefit of displaying [Google Authorship](https://plus.google.com/authorship) in Google search results if you've went ahead and applied for it.
+Ajouter un lien vers votre profil Google+ profile présente l'avantage d'afficher votre [Paternité d'Auteur Google](https://plus.google.com/authorship) dans les résultats de recherche Google si vous y avez été et y êtes inscrit.
 
-#### Google Analytics and Webmaster Tools
+#### Outils Google Analytics et Webmaster 
 
-Your Google Analytics ID goes here along with meta tags for [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownershi) site verification.
+Votre ID Google Analytics va ici avec les meta-tags de [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) et la vérification de site de  [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownershi).
 
-#### Top Navigation Links
+#### Liens Navigation en Haut
 
-Edit page/post titles and URLs to include in the site's navigation. For external links add `external: true`.
+Modifiez les titres des page/post et les URLs à inclure dans la navigation du site. Pour les liens externes, ajoutez  `external: true`.
 
 {% highlight yaml %}
-# sample top navigation links
+# échantillon de liens de navigation du haut
 links:
-  - title: About Page
+  - title: Page À Propos
     url: /about
   - title: Articles
     url: /articles
-  - title: Other Page
-    url: /other-page
-  - title: External Link
+  - title: Autre Page
+    url: /autre-page
+  - title: Lien Externe
     url: http://mademistakes.com
     external: true 
 {% endhighlight %}
 
-#### Simple Search
+#### Recherche Simple 
 
-Adding the following to `_config.yml` enables search using Christian Fei's [Simple Jekyll jQuery plugin](https://github.com/christian-fei/Simple-Jekyll-Search). Clicking search will trigger a fullscreen overlay that searches post titles' using an autogenerated JSON file.
+Ajouter ce qui suit à  `_config.yml` permet la recherche en utilisant le [plugin Simple Jekyll jQuery](https://github.com/christian-fei/Simple-Jekyll-Search) de  Christian Fei. Cliquez sur chercher déclenchera une surcouche plein-écran qui cherchera les titres de posts utilisant un fichier JSON auto-généré.
 
 {% highlight yaml %}
 search: true
@@ -168,63 +168,63 @@ search: true
 
 <figure>
   <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
-  <figcaption>Clicking search triggers an overlay that allows you to search by post title.</figcaption>
+  <figcaption>Clicker sur chercher déclenche une surcourche qui vous permet de chercher par titre de post.</figcaption>
 </figure>
 
-#### Other Stuff
+#### Autre trucs
 
-The rest is just your average Jekyll config settings. Nothing too crazy here...
+Le reste ne concerne que des réglages habituels de configuration Jekyll. Rien de vraiment fou ici...
 
 ### _includes
 
-For the most part you can leave these as is since the author/owner details are pulled from `_config.yml`. That said you'll probably want to customize the copyright stuff in `footer.html` to your liking.
+Pour l'essentiel, vous pouvez les laisser tels quels parce que les détails d'auteur/propriétaire sont extraits de  `_config.yml`. Ceci dit, vous voudrez peut-être personnaliser les mentions de copyright dans `footer.html`.
 
-### Adding Posts and Pages
+### Ajouter des Posts et des Pages
 
-There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). 
+Il y a deux layouts pour le contenu principal : `post.html` (pour les posts) et `page.html` (pour les pages). Les deux supportent les grandes **images mises en avant** qui prennent la totalité de la largeur de l'écran, et les deux sont conçus pour des billets de blogs avec beaucoup de texte (ou articles). 
 
-#### Feature Images
+#### Images mises en avant
 
-A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at [Picturefill](https://github.com/scottjehl/picturefill) or [Adaptive Images](http://adaptive-images.com/).
+Une bonne règle de pouce est de conserver les images mises en avant suffisamment belles et larges avinf que vous ne poussiez pas le texte trop loin. Une image taillée autour de 1024 x 256 pixels conservera sa taille de fichier descendante avec une résolution acceptable pour la plupart des terminaux. Si vous voulez servir ces images responsivement, je vous suggérerai de regarder [Picturefill](https://github.com/scottjehl/picturefill) ou [Adaptive Images](http://adaptive-images.com/).
 
-The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+Les deux layouts font l'hypothèse que les images mises en avant vivent dans le dossier *images*. Pour ajouter une image mise en avant sur un post ou une page, incluez simplement le nom du fichier dans le front matter comme suit : 
+
+{% highlight yaml %}
+image:
+  feature: feature-image-nomfichier.jpg
+  thumb: thumbnail-image.jpg #gardez le carré - 200x200 px c'est bien 
+{% endhighlight %}
+
+Si vous voulez mettre en oeuvre l'attribution d'une image mise en avant, utilisez le front matter YAML sur les posts ou pages. Les crédits d'images apparaissent directement sous l'image mise en avant avec un lien retour vers la source originale.
 
 {% highlight yaml %}
 image:
   feature: feature-image-filename.jpg
-  thumb: thumbnail-image.jpg #keep it square 200x200 px is good
+  credit: Michael Rose #nom de la personne ou site que vous souhaitez créditer.
+  creditlink: http://mademistakes.com #url vers son site ou la licence
 {% endhighlight %}
 
-If you want to apply attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source.
+#### Catégories
 
-{% highlight yaml %}
-image:
-  feature: feature-image-filename.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing
-{% endhighlight %}
+Dans le dossier échantillon `_posts` vous pourriez avoir remarqué `category: articles` dans le front matter. J'aime conserver tous les posts groupés dans le même dossier. Si vous décidez de renommer ou d'ajouter des catégories, vous devrez modifier le permalien dans `articles.md` avec le nom du fichier (si renommage).
 
-#### Categories
+Par exemple. Disons que vous voulez grouper tous vos posts sous `blog/` au lieu de `articles/`. Dans votre post, ajoutez  `category: blog` au front matter, renommez ou dupliquez `articles.md` en `blog.md` et modifiez le permalien dans ce fichier en `permalink: /blog/index.html`.
 
-In the sample `_posts` folder you may have noticed `category: articles` in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in `articles.md` along with the filename (if renaming).
+Si cela est fait correctement,  `/blog` devrait être une page listant tous les posts du site.
 
-For example. Say you want to group all your posts under `blog/` instead of `articles/`. In your post add `category: blog` to the front matter, rename or duplicate `articles.md` to `blog.md` and change the permalink in that file to `permalink: /blog/index.html`.
+#### Vignettes Post/Page pour OG et Twitter Cards
 
-If done correctly `/blog` should be a page listing all the site's posts.
+Les vignettes de posts et pages fonctionnent de la même façon. Celles-ci sont utilisées par les méta-tags [Open Graph](https://developers.facebook.com/docs/opengraph/) et [Twitter Cards](https://dev.twitter.com/docs/cards) trouvés dans `head.html`. Si vous n'assignez pas un thumbnail, l'image que vous avez assignée à `site.owner.avatar` dans `_config.yml sera utilisée.
 
-#### Post/Page Thumbnails for OG and Twitter Cards
-
-Post and page thumbnails work the same way. These are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) meta tags found in `head.html`. If you don't assign a thumbnail the image you assigned to `site.owner.avatar` in `_config.yml will be used.
-
-Here's an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post's YAML.
+Voici un exemple de ce à quoi pourrait ressembler un tweet vers votre site si vous activez Twitter Cards et incluez tous les métas dans votre YAML de post.
 
 ![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
 
-#### Videos
+#### Vidéos
 
-Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+Les embarquements de vidéos sont responsive et passent à l'échelle avec la largeur du bloc de contenu principal à l'aide de [FitVids](http://fitvidsjs.com/).
 
-Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+Pas certain si ceci impacte seulement Kramdown ou si c'est un problème avec Markdown en général. Mais l'ajout d'embeds vidéo YouTube provoque des erreurs à la construction de votre site Jekyll. Pour pallier ça, ajoutez un espace entre les balises `<iframe>` et retirez  `allowfullscreen`. Exemple en-dessous :
 
 {% highlight html %}
 <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
@@ -232,36 +232,36 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 #### Twitter Cards
 
-Twitter cards make it possible to attach images and post summaries to Tweets that link to your content. Summary Card meta tags have been added to `head.html` to support this, you just need to [validate and apply your domain](https://dev.twitter.com/docs/cards) to turn it on.
+Twitter cards permet d'attacher des images et résumés de posts aux Tweets qui font un lien vers votre contenu. Les meta-tags de Summary Card ont été ajoutés à `head.html` pour supporter cela, vous devez juste  [valider et mettre en oeuvre votre domaine](https://dev.twitter.com/docs/cards) pour l'activer.
 
 #### Link Post Type
 
-So Simple Theme now supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
+Simple Theme supporte désormais les **link posts**, popularisés par John Gruber. Pour les activer ajoutez simplement  `link: http://url-que-vous-voulez-lier` au front matter YAML du post et c'est fini. Voici un  [exemple  de post de lien]({{ site.url }}/articles/sample-link-post) si vous avez besoin d'un visuel.
 
 ---
 
-## Theme Development
+## Développement du Thème
 
-If you want to easily skin the themes' colors and fonts, take a look at `variables.less` in `assets/less/` and make the necessary changes to the color and font variables. To make development easier I setup a Grunt build script to compile/minify the LESS files into `main.min.css` and lint/concatenate/minify all scripts into `scripts.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
+Si vous voulez skinner facilement les couleurs et fontes des thèmes, jetez un oeil sur `variables.less` dans `assets/less/` et faites les modifications nécessaires pour modifier les variables de couleurs et de fontes. Pour rendre le développement plus facile, j'ai installé un script de build Grunt pour compiler/minifier les fichiers LESS à l'intérieur de `main.min.css` et lint/concatenate/minify tous les scripts à l'intérieur de `scripts.min.js`. [Installez Node.js](http://nodejs.org/), puis [installez Grunt](http://gruntjs.com/getting-started), et pour finir installez les dépendances pour le thème contenues dans `package.json`:
 
 {% highlight bash %}
 npm install
 {% endhighlight %}
 
-From the theme's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. You can also use `grunt watch` in combination with `jekyll build --watch` to watch for updates to your LESS and JS files that Grunt will then automatically re-build as you write your code which will in turn auto-generate your Jekyll site when developing locally.
+À partir de la racine du thème, utilisez `grunt` pour reconstruire le CSS, concaténer les fichiers JavaScript, et optimiser les fichiers .jpg, .png, et .svg files dans le répertoire `images/`. Vous pouvez aussi utiliser `grunt watch` en combinaison avec `jekyll build --watch` pour regarder les mises à jours de vos fichiers LESS et JS files que Grunt reconstruira automatiquement ensuite au fur et à mesure que vous écrivez du code qui à son tour auto-générera votre site Jekyll quand vous travaillez localement.
 
-And if the command line isn't your thing (you're using Jekyll so it probably is), [CodeKit](http://incident57.com/codekit/) for Mac OS X and [Prepros](http://alphapixels.com/prepros/) for Windows are great alternatives.
+Et si la ligne de commende n'est pas votre truc (vous utilisez Jekyll, aussi il est probable que ce le soit), [CodeKit](http://incident57.com/codekit/) pour Mac OS X et [Prepros](http://alphapixels.com/prepros/) pour  Windows sont de belles alternatives.
 
 ---
 
-## Questions?
+## Questions ?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/so-simple-theme/issues/new).
+Vous avez un problème à faire fonctionner quelque chose ou vous voulez savoir pourquoi j'ai installé quelque chose d'une certaine façon ? Pinguez-moi sur Twitter [@mmistakes](http://twitter.com/mmistakes) ou [soumettez un problème GitHub](https://github.com/mmistakes/so-simple-theme/issues/new).
 
-## License
+## Licence
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+Ce thème est libre et c'est du logiciel open source, distribué sous la [Licence GNU General Public]({{ site.url }}/LICENSE) version 2 ou plus. Sentez-vous donc libre d'utiliser ce thème Jekyll sur votre site sans faire de lien arrière ou toute utilisation de divulgation.
 
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
+Si vous voulez créditer l'auteur sur votre blog ou lui tweeter un message [@mmistakes](https://twitter.com/mmistakes), ce serait vraiment charmant ! 
 
-[^1]: Used to generate absolute urls in *sitemap.xml*, *feed.xml*, and for canonical urls in *head.html*. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally remove or comment out this line so local CSS, JS, and image assets are used.
+[^1]: utilisé pour générer les urls absolues dans *sitemap.xml*, *feed.xml*, et pour les urls canoniques dans *head.html*. N'ajoutez pas de `/` après dans votre url de base par ex : http://mademistakes.com. Quand vous développez localement, retirez ou dé-commenter cette ligne afin d'utiliser les assets CSS, JS, et image locaux.

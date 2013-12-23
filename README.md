@@ -1,26 +1,26 @@
 # Thème So Simple
 
-Vouc chercher un thème simple, responsive pour votre blog Jekyll ? Bon ne cherchez pas plus loin. Voici  **So Simple Theme**, une relance de [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- conçue par le designer / illustrateur [Michael Rose](http://mademistakes.com).
+Vous cherchez un thème simple, responsive pour votre blog Jekyll ? Bon ne cherchez pas plus loin. Voici  **So Simple Theme**, une relance de [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- conçue par le designer slash illustrateur [Michael Rose](http://mademistakes.com).
 
-## So Simple Theme c'est tout cela :
+## So Simple Theme c'est tout ça 
 
-* Des templates dites "Responsive". Mieux sur mobile, tablettes et desktop.
+* Des templates "Responsive". Mieux sur mobile, tablettes et desktop.
 * Dégradation gracieuse dans les navigateurs les plus vieux. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
 * Embellissements minimes et animations subtiles.
 * Typographie lisible pour faire briller vos mots.
-* Support pour les grandes images pour faire ressortir vos posts préférés.
-* Commentaires Disqus si vous choisisssez de les autoriser.
+* Support des grandes images à hisser sur vos posts préférés.
+* Commentaires Disqus si vous choisissez de les autoriser.
 * Structure simple et claire des permaliens[^1].
-* Tags pours [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) pour une meilleure expérience de partage social.
-* Vanilla [page 404 personnalisée]({{ site.url }}/404.html) pour vous faire démarrer.
-* Feuilles de style pour Pygments et Coderay [éclairage syntaxe](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) pour faire que vos exemples de code soient présentés avec élégance.
-* Recherche simple qui chevauche les résultats basées sur les titres des posts.
+* Tags pour [Open Graph](https://developers.facebook.com/docs/opengraph/) et [Twitter Cards](https://dev.twitter.com/docs/cards) pour une meilleure expérience de partage social.
+* [Page 404 standard et personnalisable]({{ site.url }}/404.html) pour démarrer.
+* Feuilles de style pour [éclairage syntaxe](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) Pygments et Coderay pour que vos exemples de code soient présentés avec élégance.
+* Recherche simple coiffant les résultats basés sur les titres des posts.
 * Script de construction Grunt pour un développement de thème plus facile.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) pour les moteurs de recherche.
 
-![screenshot de So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+![Screenshot du Thème So Simple](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
 
-Notes générales et suggestions pour personnaliser So Simple Theme.
+Notes générales et suggestions pour personnaliser le Thème So Simple.
 
 ---
 
@@ -35,7 +35,7 @@ Notes générales et suggestions pour personnaliser So Simple Theme.
 
 [Téléchargez le thème](http://mmistakes.github.io/so-simple-theme)
 
-**Pro-truc :** Effacez la branche `gh-pages` après avoir cloné et commencez fraîchement par la déconnexion de la branche  `master`. Il y a plein de déchets dans `gh-pages` utilisé pour le site de démo du thème dont vous ne voudrez pas sur votre site.
+**Pro-truc :** Effacez la branche `gh-pages` après l'avoir clonée et commencez fraîchement par la déconnexion de la branche  `master`. Il y a plein de déchets dans la branche `gh-pages` utilisés pour le site de démo du thème dont vous ne voudrez pas sur votre site.
 
 ---
 
