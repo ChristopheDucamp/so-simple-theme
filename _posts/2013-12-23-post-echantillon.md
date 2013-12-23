@@ -12,7 +12,8 @@ image:
 comments: true  
 ---
 
-Ci-dessous tout ce que vous devez mettre en forme pour mettre en forme le thème. Regardez le code source pour voir les nombreux éléments embarqués dans les paragraphes.
+Ci-dessous tout simplement tout ce dont vous aurez besoin mettre de la forme dans le thème. 
+Regardez le [code source](https://github.com/ChristopheDucamp/so-simple-theme-fr/blob/gh-pages/_posts/2013-12-23-post-echantillon.md) pour voir les nombreux éléments embarqués à l'intérieur des paragraphes.
 
 # Titre 1
 
@@ -33,9 +34,9 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **Ceci est gras**. Nullam
 ![Image Smithsonienne]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
 {: .pull-right}
 
-*Ceci a de l'emphase*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. L'eau est H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(Ceci est une citation)</cite>. <u>Souligné</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+*Voici de l'emphase*. Donec faucibus bitcoin. Nunc iaculis suscipit dui. 53 = 125. L'eau est H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(Ceci est une citation)</cite>. <u>Souligné</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
-HTML et <abbr title="cascading stylesheets">CSS<abbr> sont nos outils. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+HTML et <abbr title="cascading stylesheets">CSS</abbr> sont nos outils. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
 ### Citations
 
@@ -45,21 +46,21 @@ HTML et <abbr title="cascading stylesheets">CSS<abbr> sont nos outils. Mauris a 
 
 ### Listes numérotées 
 
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
+1. Item un
+   1. sous item un
+   2. sous item deux
+   3. sous item trois
+2. Item deux
 
 ### Listes non numérotées
 
-* Item one
-* Item two
-* Item three
+* Item un
+* Item deux
+* Item trois
 
 ## Tableaux
 
-| Header1 | Header2 | Header3 |
+| Titre1  | Titre 2 | Titre 3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |

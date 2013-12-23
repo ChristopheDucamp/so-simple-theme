@@ -9,11 +9,12 @@ image:
   credit: Michael Rose
   creditlink: http://mademistakes.com
 ---
+## 2013-12-23  
+Séduit par ce thème simple, responsive pour motoriser un futur projet de blog motorisé par Jekyll.  
+Le thème s'appelle **So Simple** et a été créé par <span class="h-card">[Michael Rose](http://mademistakes)</span>, designer *slash* illustrateur à NYC.  
+Prochaine étape durant les vacances : apprendre à localiser la date en français et tenter d'améliorer quelques [blocs de base indieweb](http://indiewebcamp.com/building-blocks-fr). Forks bienvenus. — [xtof](http://twitter.com/xtof_fr)
 
-En quête d'un thème simple, responsive pour votre blog motorisé par Jekyll ? Trouvé ce thème **So Simple**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- 
-créé par <span class="h-card">[Michael Rose](http://mademistakes)</span>, designer *slash* illustrateur à NYC.
-
-## So Simple Theme ça fait ça :
+## So Simple ça fait ça 
 
 * Des templates *responsive*. Rendent bien sur les mobiles, tablettes et desktop.
 * Dégradation élégante dans les navigateurs plus anciens. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
@@ -28,6 +29,7 @@ créé par <span class="h-card">[Michael Rose](http://mademistakes)</span>, desi
 * Recherche simple qui couvre les résultats basés sur les titres des posts.
 * [Script de construction Grunt]({{ site.url }}/theme-setup/index.html#theme-development) pour faciliter le développement de thèmes.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) pour les moteurs de recherche
+
 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Installer le Thème Minimal Mistakes</a>
 
