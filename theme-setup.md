@@ -239,6 +239,8 @@ Twitter cards permet d'attacher des images et résumés de posts aux Tweets qui 
 Simple Theme supporte désormais les **link posts**, popularisés par John Gruber. Pour les activer ajoutez simplement  `link: http://url-que-vous-voulez-lier` au front matter YAML du post et c'est fini. Voici un  [exemple  de post de lien]({{ site.url }}/articles/sample-link-post) si vous avez besoin d'un visuel.
 
 ---
+<span id="theme-development"> </span>  
+
 
 ## Développement du Thème
 

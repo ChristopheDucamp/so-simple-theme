@@ -1,30 +1,29 @@
-title:            Un Premier Projet sur Jekyll
+title:            Premier Projet sur Jekyll
 description:      Localisation du Thème So Simple
 logo:             site-logo.png
 disqus_shortname: xtof
 search:           true
 #Modifiez l'url vers votre domaine. Laissez le serveur en localhost ou en blanc pendant que vous travaillez localement.
-url:              http://cyberhippie.fr
+url:              http://christopheducamp.github.io
 
 # Info Propriétaire/auteur
 owner:
   name:           Christophe Ducamp
-  avatar:         bio-photo.jpg
+  avatar:         christophe-ducamp-photo.jpg
   email:          christophe@mydatalabs.com
   # Les liens vers les silos sociaux utilisés dans le footer. Mettez à jour et retirer à votre gré.
-  twitter:  xtof_fr      
-  facebook: christophe.ducamp      
-  github: ChristopheDucamp         
+  twitter:  http://twitter.com/xtof_fr      
+  facebook:  https://www.facebook.com/christophe.ducamp    
+  github: https://github.com/christopheducamp         
   stackexchange:  
   linkedin: christopheducamp      
-  instagram: xtof_fr      
-  flickr: christopheducamp      
-  tumblr: xtof         
+  instagram: http://instagram.com/xtof_fr     
+  flickr: http://www.flickr.com/photos/christopheducamp/    
+  tumblr: http://xtof.tumblr.com/         
   # Pour la paternité d'auteur Google + https://plus.google.com/authorship
-  google_plus: christophe.ducamp@gmail.com    
-
+  google_plus: https://plus.google.com/+ChristopheDucamp
 # Les analytics et outils de webmaster se placent ici 
-google_analytics:   
+google_analytics: UA-46686084-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         

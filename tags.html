@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tag Index
-description: "An archive of posts sorted by tag."
+title: Index de Mots-Clés
+description: "Une archive des posts triés par tag."
 ---
 
 <ul class="tag-box inline">
@@ -25,7 +25,7 @@ description: "An archive of posts sorted by tag."
 		{% for post in pages_list %}
 			{% if post.title != null %}
 			{% if group == null or group == post.group %}
-			<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></li>
+			<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></li>
 			{% endif %}
 			{% endif %}
 		{% endfor %}

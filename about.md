@@ -10,6 +10,7 @@ image:
   creditlink: http://mademistakes.com
 ---
 ## 2013-12-23  
+
 Séduit par ce thème simple, responsive pour motoriser un futur projet de blog motorisé par Jekyll.  
 Le thème s'appelle **So Simple** et a été créé par <span class="h-card">[Michael Rose](http://mademistakes)</span>, designer *slash* illustrateur à NYC.  
 Prochaine étape durant les vacances : apprendre à localiser la date en français et tenter d'améliorer quelques [blocs de base indieweb](http://indiewebcamp.com/building-blocks-fr). Forks bienvenus. — [xtof](http://twitter.com/xtof_fr)
