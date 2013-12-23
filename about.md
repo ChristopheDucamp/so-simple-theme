@@ -10,11 +10,12 @@ image:
   creditlink: http://mademistakes.com
 ---
 
-Vous cherchez un thème simple, responsive pour votre blog motorisé par Jekyll ? N'allez pas plus loin. Le voici : **So Simple Theme**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- créé par <span class="h-card"[Michael Rose](http://mademistakes)</span>, designer slash illustrateur à NYC.
+En quête d'un thème simple, responsive pour votre blog motorisé par Jekyll ? Trouvé ce thème **So Simple**, une relance du [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- 
+créé par <span class="h-card">[Michael Rose](http://mademistakes)</span>, designer *slash* illustrateur à NYC.
 
-## So Simple Theme c'est tout cela :
+## So Simple Theme ça fait ça :
 
-* Des templates *responsive*. Rendent bien sur les mobile, tablettes et desktop.
+* Des templates *responsive*. Rendent bien sur les mobiles, tablettes et desktop.
 * Dégradation élégante dans les navigateurs plus anciens. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
 * Embellissements minimaux et animations subtiles.
 * Typographie lisible pour faire briller vos mots.
@@ -24,10 +25,10 @@ Vous cherchez un thème simple, responsive pour votre blog motorisé par Jekyll 
 * Tags pour [Open Graph](https://developers.facebook.com/docs/opengraph/) et [Twitter Cards](https://dev.twitter.com/docs/cards) pour une meilleure expérience de partage social.
 * [Page 404 personnalisable]({{ site.url }}/404.html) standard pour vous aider à partir.
 * Feuilles de style pour [mise en avant de la syntaxe](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) Pygments et Coderay afin que vos échantillons de code s'affichent joliment.
-* Simple search that overlays results based on post title.
-* [Script de construction Grunt]({{ site.url }}/theme-setup/index.html#theme-development) pour faciliter le développement de thème.
+* Recherche simple qui couvre les résultats basés sur les titres des posts.
+* [Script de construction Grunt]({{ site.url }}/theme-setup/index.html#theme-development) pour faciliter le développement de thèmes.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) pour les moteurs de recherche
 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Installer le Thème Minimal Mistakes</a>
 
-[^1]: Exemple: *domain.com/category-name/post-title*
+[^1]: Exemple: *nom.domaine/nom-categorie/titre-post*
