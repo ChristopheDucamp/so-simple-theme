@@ -12,7 +12,7 @@
 {% include navigation.html %}
 
 <div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry" itemscope>
+  <article class="entry h-entry" itemscope>
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Crédit Photo : <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
