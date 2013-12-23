@@ -4,11 +4,7 @@ logo:             site-logo.png
 disqus_shortname: xtof
 search:           true
 #Modifiez l'url vers votre domaine. Laissez le serveur en localhost ou en blanc pendant que vous travaillez localement.
-<<<<<<< HEAD
-url:              http://christopheducamp.github.io
-=======
 url:              http://christopheducamp.github.io/so-simple-theme-fr
->>>>>>> 7ed156e25ac1914af01e8ddbe469b5d5255dce2d
 
 # Info Propriétaire/auteur
 owner:
