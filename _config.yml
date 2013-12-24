@@ -12,14 +12,14 @@ owner:
   avatar:         christophe-ducamp-photo.jpg
   email:          christophe@mydatalabs.com
   # Les liens vers les silos sociaux utilisés dans le footer. Mettez à jour et retirer à votre gré.
-  twitter:  http://twitter.com/xtof_fr      
-  facebook:  https://www.facebook.com/christophe.ducamp    
-  github: https://github.com/christopheducamp         
+  twitter:  xtof_fr      
+  facebook:  christophe.ducamp    
+  github: christopheducamp         
   stackexchange:  
   linkedin: christopheducamp      
-  instagram: http://instagram.com/xtof_fr     
-  flickr: http://www.flickr.com/photos/christopheducamp/    
-  tumblr: http://xtof.tumblr.com/         
+  instagram: xtof_fr     
+  flickr: christopheducamp/    
+  tumblr: xtof         
   # Pour la paternité d'auteur Google + https://plus.google.com/authorship
   google_plus: https://plus.google.com/+ChristopheDucamp
 # Les analytics et outils de webmaster se placent ici 

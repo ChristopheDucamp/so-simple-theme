@@ -4,7 +4,7 @@ permalink: /theme-setup/index.html
 title: Installer le Thème
 description: "Instructions pour savoir comment installer et personnaliser le thème Jekyll So Simple."
 modified: 2013-12-23
-tags: [Jekyll, theme, install, setup]
+tags: [Jekyll, thème, install, setup, installation, démarrage]
 ---
 
 Notes Générales et suggestions pour personnaliser **So Simple Theme**.

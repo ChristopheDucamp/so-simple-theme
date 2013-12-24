@@ -1,8 +1,8 @@
-# Thème So Simple
+# Thème So Simple pour Jekyll
 
 Vous cherchez un thème simple, responsive pour votre blog Jekyll ? Bon ne cherchez pas plus loin. Voici  **So Simple Theme**, une relance de [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- conçue par le designer slash illustrateur [Michael Rose](http://mademistakes.com).
 
-## So Simple Theme c'est tout ça 
+## Le Thème So Simple c'est tout ça 
 
 * Des templates "Responsive". Mieux sur mobile, tablettes et desktop.
 * Dégradation gracieuse dans les navigateurs les plus vieux. Compatible avec Internet Explorer 9+ et tous les navigateurs modernes.
@@ -13,7 +13,7 @@ Vous cherchez un thème simple, responsive pour votre blog Jekyll ? Bon ne cherc
 * Structure simple et claire des permaliens[^1].
 * Tags pour [Open Graph](https://developers.facebook.com/docs/opengraph/) et [Twitter Cards](https://dev.twitter.com/docs/cards) pour une meilleure expérience de partage social.
 * [Page 404 standard et personnalisable]({{ site.url }}/404.html) pour démarrer.
-* Feuilles de style pour [éclairage syntaxe](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) Pygments et Coderay pour que vos exemples de code soient présentés avec élégance.
+* Feuilles de style pour [coloration syntaxique](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) Pygments et Coderay pour que vos exemples de code soient présentés avec élégance.
 * Recherche simple coiffant les résultats basés sur les titres des posts.
 * Script de construction Grunt pour un développement de thème plus facile.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) pour les moteurs de recherche.
@@ -31,7 +31,7 @@ Notes générales et suggestions pour personnaliser le Thème So Simple.
 3. Clonez le dépôt que vous venez juste de forker.
 4. Éditez le fichier `_config.yml` pour personnaliser votre site.
 5. Regardez les posts échantillons dans `_posts` pour voir des exemples qui savent extraire de grandes images, en leur assignant des catégories et mots-clés, et d'autres data YAML.
-6. Lisez la documentation en-dessous pour plus de personnalisation des pointeurs
+6. Lisez la documentation en-dessous pour plus de conseil sur la personnalisation.
 
 [Téléchargez le thème](http://mmistakes.github.io/so-simple-theme)
 
@@ -76,7 +76,7 @@ google_verify:
 bing_verify:
 
 # Liens à inclure dans la navigation en haut
-# Pour l'ajout de liens externes ajoutez  external: true
+# Pour les liens externes, ajoutez external: true
 links:
   - title: About
     url: /about
@@ -103,26 +103,26 @@ permalink:   /:categories/:title
 so-simple-theme/
 ├── _includes/
 |    ├── browser-upgrade.html  #alerte pour mise à jour navigateurs  < IE8
-|    ├── footer.html  #site footer
-|    ├── head.html  #site head
-|    ├── navigation.html #site navigation et masthead
+|    ├── footer.html  #pied de page du site
+|    ├── head.html  #en-tête du site
+|    ├── navigation.html #navigation et masthead
 |    └── scripts.html  #jQuery, plugins, GA, etc.
 ├── _layouts/
 |    ├── page.html  #page layout
 |    └── post.html  #post layout
 ├── _posts/
 ├── assets/
-|    ├── css/  #preprocessed less styles
-|    ├── fonts/  #icon webfonts
+|    ├── css/  #styles pré-processés avec less
+|    ├── fonts/  # webfontes icones 
 |    ├── js/
-|    |   ├── _main.js  #main JavaScript file, plugin settings, etc
-|    |   ├── plugins  #jQuery plugins
-|    |   └── vendor/  #jQuery and Modernizr
+|    |   ├── _main.js  #fichier principal JavaScript, réglages des plugins, etc
+|    |   ├── plugins  #plugins jQuery
+|    |   └── vendor/  #jQuery et Modernizr
 |    └── less/
-├── images  #images for posts and pages
-├── _config.yml  #Jekyll site options
-├── about.md  #about page
-├── articles.md  #liste tous les posts du plus récent aux plus vieux
+├── images  #images pour les posts et pages
+├── _config.yml  #options du site Jekyll
+├── about.md  #page à propos
+├── articles.md  #liste tous les posts du plus récent au plus vieux
 ├── index.html  #homepage. liste les 10 posts les plus récents
 ├── tags.html  #lists tous les posts classés par mots-clés
 └── sitemap.xml  #sitemap autogénéré pour moteurs de recherche
@@ -144,6 +144,6 @@ Si vous avez quelque problème à faire fonctionner quelque chose ou si vous vou
 
 ## Licence
 
-Ce thème est un logiciel libre et opensource distribué sous la [GNU General Public License](LICENCE GNU GPL) version 2 ou suivante. Sentez-vous ainsi libre d'utiliser ce thème Jekyll sur votre site sans vous sentir obligé de me faire un lien retour ou d'utiliser un "disclaimer".
+Ce thème est un logiciel libre et opensource distribué sous la [GNU General Public License](LICENCE GNU GPL) version 2 ou suivante. Sentez-vous ainsi libre d'utiliser ce thème Jekyll sur votre site sans vous sentir obligé de me faire un lien retour ou d'utiliser un "dégagement de responsabilité".
 
 Si vous souhaitez me créditer quelque part sur votre blog ou tweeter un message à [@mmistakes](https://twitter.com/mmistakes), ce serait vraiment délicat.
