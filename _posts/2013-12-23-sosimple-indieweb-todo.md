@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Bricolage IndieWeb pour la localisation de So Simple
-description: "Plan de route 2014 : dates, recherche et blocs de construction indieweb."
-modified: 2013-12-26 08:05
+title: Canditature 2014 pour IndieMark niveau 1
+description: "Plan de route 2014 : échelle IndieMark"
+modified: 2013-12-26 08:59
 category: articles
-tags: [todo indieweb localisation]
+tags: [todo indieweb localisation indiemark]
 image:
   feature: so-simple-sample-image-1.jpg
   credit: Michael Rose
@@ -12,50 +12,57 @@ image:
 comments: true  
 ---
 
-## Étude de localisation : localiser les dates, la recherche sans oublier... les briques de base indieweb 
+## Objectif 2014 : Premier barreau de l'échelle IndieMark niveau 1 
 
-Après un début du mois difficile pour ébaucher une [page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et l'étude d'un  [tutoriel de cuisine pour créer un projet sur GitHub](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/), quelques réjouissances sont attendues pour explorer  **quelques jolis thèmes Jekyll**. 
+Après un début du mois difficile pour ébaucher une [page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et l'étude d'un [tutoriel de cuisine pour créer un projet sur GitHub](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/), 
+quelques réjouissances sont attendues pour explorer  **quelques jolis thèmes Jekyll**. 
 
-Toujours beaucoup de difficultés à comprendre les subtilités de Git à ligne de commande, les assemblages de briques étranges et pré-processeurs m'ouvrent un tout nouveau monde plein de perspectives pour avancer sur l'indieweb.
+Attention, ce thème **So Simple** développé par <span class="h-card">[Michael](http://mademistakes.com/about/)</span> (SlashGen à NYC), n'est encore tout à fait fonctionnel dans cet amorçage de version localisée. 
 
-L'intention de ce post : garder un mémo des **futurs trucs à faire** durant les vacances. Je rêverais que la structure du thème **So Simple** développé par <span class="h-card">[Michael](http://mademistakes.com/about/)</span> (SlashGen à NYC) soit plus un peu plus *indieweb-friendly*. 
 
-Premier ressenti à cette heure : la phase 1 [IndieMark](http://indiewebcamp.com/IndieMark) me semble jouable pour un livrable début 2014. 
+Il lui manque encore quelques items à parfaire pour répondre aux exigences de niveau 1 sur l'échelle [IndieMark](https://indiewebcamp.com/IndieMark#Level_1)
 
-Après avoir démarré la localisation de quelques dates sur les pages de structure (index, articles et tags), deux sections restent à creuser. 
 
-### 1.  Moteur de recherche 
+### Check-list IndieMark (niveau 1)
+
+<dfn>IndieMark</dfn> est un ensemble de métriques pour mesurer le niveau d'indépendance d'un site web. 
+ 
+Le niveau 1 correspond au *web classique indépendant* avec l'intégration d'[IndieAuth](http://indieauth.com), à savoir posséder son domaine, utiliser son domaine pour se connecter et... publier des posts. 
+
+Les points à compléter à cette heure : 
+
+1. Identité (#ownyouridentity) - migrer ce thème sur un domaine ou un sous-domaine personnel
+2. Authentification - installer IndieAuth et parvenir à se connecter chez un fournisseur
+3. Posts (#ownyourdata) - poster du contenu  
+  3. avec un marquage avec [h-entry](https://indiewebcamp.com/h-entry-fr) : classes à ajouter `p-name`, `p-summary`, `dt-published`, `u-url`
+  3. vérifier les [permaliens](https://indiewebcamp.com/permalinks) 
+4. Recherche  
+
+#### Panne de Moteur... 
+
 Précédemment fonctionnel, il ne semble plus vouloir démarrer ce matin. 
-Solution : Réinstaller une instance fraîche du thème avant étude des termes à traduire.
+Solution envisageable : échange standard à savoir réinstaller une instance fraîche du thème avant étude des termes spécifiques à traduire dans le javascript.
 
-### 2. blocs de construction indieweb
 
-<<<<<<< HEAD
-Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) sera complétée point par point. Pour cette section d'enrichissement sémantique, l'inspiration sera à dénicher sur les instances de mes quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
-=======
-{% highlight html %}
-{% raw %}
-<time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-{% endraw %}
-{% endhighlight %}
+#### Note sur les blocs de construction indieweb
 
-Statut : [Recherche personnelle en cours - attente de raffinage](http://christopheducamp.github.io/news/2013/12/26/jekyll-localiser-la-date/) 
+Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) sera à compléter point par point. 
+Pour cette section, je prévois d'aller chercher quelque inspiration sur les instances de quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
 
-### 2.  Moteur de recherche 
 
-Le moteur de recherche  fonctionne parfaitement en local mais pas en ligne. 
-Par ailleurs, quelques termes simples sont à traduire lors de l'utilisation du moteur de recherche de titres (Chercher, ...). 
+## ChronoRêve pour les vacances 
 
-### 3. blocs de construction indieweb
+* évaluer ce thème "photo" avec quelques visuels personnels de deux grosses *machines de destruction* évoluant sous mes fenêtres...
+* essayer d'implémenter [webmention](http://indiewebcamp.com/webmention) avec le service [https://webmention.herokuapp.com/](https://webmention.herokuapp.com/)
 
-Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) sera à compléter point par point. Pour cette section, je prévois d'aller chercher quelque inspiration sur les instances de quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
->>>>>>> 32cfb853ae0dc583d216a36fb557797ad08d6c40
 
-Vos commentaires, idées, suggestions et/ou *fork* + *pull-request* du fichier index.html sont bienvenus.
+## Réagir 
 
-ChronoRêve de vacances : évaluer ce thème "photo" avec quelques visuels personnels de deux grosses *machines de destruction* évoluant sous mes fenêtres...
+Le répertoire de travail est [accessible et ouvert sur GitHub](https://github.com/ChristopheDucamp/so-simple-theme-fr) pour toute *coopération sans coordination* : vos commentaires, idées, suggestions et/ou *fork* + *pull-request*. 
+ 
+## Ailleurs 
+Une copie de ce post <span class="u-syndication">[a été distribuée sur twitter](https://twitter.com/xtof_fr/status/415266536840904704)</span>
 
 Bonnes fêtes de fin d'année et à plus tard.
 
-## Ailleurs 
-<span class="u-syndication">[conversation sur twitter](https://twitter.com/xtof_fr/status/415266536840904704)</span>
+
