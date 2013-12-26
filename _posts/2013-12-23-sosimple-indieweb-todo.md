@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Canditature 2014 pour IndieMark niveau 1
-description: "Plan de route 2014 : échelle IndieMark"
+title: Candidature 2014 pour IndieMark niveau 1
+description: "Plan de route 2014 indie web : grimper sur l'échelle IndieMark"
 modified: 2013-12-26 08:59
 category: articles
 tags: [todo indieweb localisation indiemark]
@@ -14,8 +14,8 @@ comments: true
 
 ## Objectif 2014 : Premier barreau de l'échelle IndieMark niveau 1 
 
-Après un début du mois difficile pour ébaucher une [page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et l'étude d'un [tutoriel de cuisine pour créer un projet sur GitHub](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/), 
-quelques réjouissances sont attendues pour explorer  **quelques jolis thèmes Jekyll**. 
+Après un début du mois difficile pour ébaucher une [première page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et l'étude d'un [tutoriel de cuisine pour créer un projet sur GitHub](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/), 
+quelques réjouissances sont attendues pour explorer **quelques jolis thèmes Jekyll**. 
 
 Attention, ce thème **So Simple** développé par <span class="h-card">[Michael](http://mademistakes.com/about/)</span> (SlashGen à NYC), n'est encore tout à fait fonctionnel dans cet amorçage de version localisée. 
 
@@ -58,9 +58,10 @@ Pour cette section, je prévois d'aller chercher quelque inspiration sur les ins
 
 ## Réagir 
 
-Le répertoire de travail est [accessible et ouvert sur GitHub](https://github.com/ChristopheDucamp/so-simple-theme-fr) pour toute *coopération sans coordination* : vos commentaires, idées, suggestions et/ou *fork* + *pull-request*. 
+Le répertoire de travail est [accessible et ouvert sur GitHub](https://github.com/ChristopheDucamp/so-simple-theme-fr) pour toute *coopération sans coordination* : vos commentaires, idées, suggestions et/ou *fork* + *pull-request* sont bienvenus. (aide toute particulièrement attendue pour implémenter webmention.) 
  
-## Ailleurs 
+### Ailleurs 
+
 Une copie de ce post <span class="u-syndication">[a été distribuée sur twitter](https://twitter.com/xtof_fr/status/415266536840904704)</span>
 
 Bonnes fêtes de fin d'année et à plus tard.
