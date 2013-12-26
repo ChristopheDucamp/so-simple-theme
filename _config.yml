@@ -5,7 +5,6 @@ disqus_shortname: xtof
 search:           true
 #Modifiez l'url vers votre domaine. Laissez le serveur en localhost ou en blanc pendant que vous travaillez localement.
 url:              http://christopheducamp.github.io/so-simple-theme-fr
-
 # Info Propriétaire/auteur
 owner:
   name:           Christophe Ducamp
