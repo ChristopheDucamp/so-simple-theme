@@ -35,7 +35,7 @@ Tout en respectant le format de représentation [iso 8601](http://microformats.o
 {% endraw %}
 {% endhighlight %}
 
-Les recherches se poursuivront sur une ressource trouvée sur le [blog de Toam dans son guide de démarrage Jekyll](http://www.toam.fr/20-05-2013-guide-demarrage-jekyll/). La localisation proposée peut s'envisager avec un plugin Jekyll, fermant la porte à un hébergement sur GitHub Pages (pour des raisons e sécurité GH pages n'accepte pas les plugins Jekyll.) 
+Statut : [Recherche personnelle en cours - attente de raffinage](http://christopheducamp.github.io/news/2013/12/26/jekyll-localiser-la-date/) 
 
 ### 2.  Moteur de recherche 
 
