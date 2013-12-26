@@ -30,7 +30,26 @@ Solution : Réinstaller une instance fraîche du thème avant étude des termes 
 
 ### 2. blocs de construction indieweb
 
+<<<<<<< HEAD
 Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) sera complétée point par point. Pour cette section d'enrichissement sémantique, l'inspiration sera à dénicher sur les instances de mes quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
+=======
+{% highlight html %}
+{% raw %}
+<time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+{% endraw %}
+{% endhighlight %}
+
+Statut : [Recherche personnelle en cours - attente de raffinage](http://christopheducamp.github.io/news/2013/12/26/jekyll-localiser-la-date/) 
+
+### 2.  Moteur de recherche 
+
+Le moteur de recherche  fonctionne parfaitement en local mais pas en ligne. 
+Par ailleurs, quelques termes simples sont à traduire lors de l'utilisation du moteur de recherche de titres (Chercher, ...). 
+
+### 3. blocs de construction indieweb
+
+Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) sera à compléter point par point. Pour cette section, je prévois d'aller chercher quelque inspiration sur les instances de quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
+>>>>>>> 32cfb853ae0dc583d216a36fb557797ad08d6c40
 
 Vos commentaires, idées, suggestions et/ou *fork* + *pull-request* du fichier index.html sont bienvenus.
 
