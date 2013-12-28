@@ -16,51 +16,51 @@ published: true
 
 ## Objectif 2014 : Premier barreau de l'échelle IndieMark niveau 1 
 
-Après un début du mois difficile pour ébaucher une [première page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et l'étude d'un [tutoriel de cuisine pour créer un projet sur GitHub](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/), 
-quelques réjouissances sont attendues pour explorer **quelques jolis thèmes Jekyll**. 
+Début du mois difficile pour parvenir à ébaucher une [première page personnelle basique hébergée sur GitHub](http://cyberhippie.fr/news/2013/12/03/premier-pas-sur-jekyll/) et toujours dans l'étude d'un [tutoriel de cuisine pour créer un projet sur le même silo](http://cyberhippie.fr/news/2013/12/21/demarrer-avec-pages-github/),... les premières réjouissances sont attendues pour explorer **de jolis thèmes Jekyll**. 
 
-Attention, ce thème **So Simple** développé par <span class="h-card">[Michael](http://mademistakes.com/about/)</span> (SlashGen à NYC), n'est encore tout à fait fonctionnel dans cet amorçage de version localisée. 
+Premier pas sur le thème **So Simple**, développé par <span class="h-card">[Michael](http://mademistakes.com/about/)</span> (SlashGen à NYC).
 
-Il lui manque encore quelques items à parfaire pour répondre aux exigences de niveau 1 sur l'échelle [IndieMark](https://indiewebcamp.com/IndieMark#Level_1)
+Attention : le thème n'est pas encore tout à fait fonctionnel dans cet amorçage de version localisée. 
+
+Quelques items restent à parfaire pour répondre aux exigences de premier niveau sur l'échelle [IndieMark](https://indiewebcamp.com/IndieMark#Level_1)
 
 ### Check-list IndieMark (niveau 1)
 
 <dfn>IndieMark</dfn> est un ensemble de métriques pour mesurer le niveau d'indépendance d'un site web. 
  
- Le niveau 1 correspond au *web classique indépendant* avec l'intégration d'[IndieAuth](http://indieauth.com), à savoir posséder son domaine, utiliser son domaine pour se connecter et... publier des posts. 
+Et le niveau 1 correspond au *web classique indépendant* avec l'intégration d'[IndieAuth](http://indieauth.com), à savoir posséder son domaine, utiliser son domaine pour se connecter et... publier des posts. 
 
-Les points à éudier à cette heure : 
+Les points restant à étudier pour 2014 : 
 
-1. Identité (#ownyouridentity) - migrer ce thème sur un domaine ou un sous-domaine personnel
-2. Authentification - installer IndieAuth et parvenir à se connecter chez un fournisseur
+1. Identité (#ownyouridentity) - parvenir à installer ce thème sur un domaine ou un sous-domaine personnel
+2. Authentification - installer IndieAuth pour se connecter
 3. Posts (#ownyourdata) - poster du contenu  
-  3. enrichir le marquage avec [h-entry](https://indiewebcamp.com/h-entry-fr) : classes à ajouter `p-name`, `p-summary`, `dt-published`, `u-url`
-  3. vérifier les [permaliens](https://indiewebcamp.com/permalinks) 
-4. Vérifier le moteur de recherche  
+  3. enrichir le marquage avec [h-entry](https://indiewebcamp.com/h-entry-fr) : quelques classes sont à ajouter `p-name`, `p-summary`, `dt-published`, `u-url`
+  3. vérification des [permaliens](https://indiewebcamp.com/permalinks) 
+4. Et dernier point, parvenir à démarrer le moteur de recherche  
 
 #### Panne de Moteur... 
 
-Précédemment fonctionnel, il ne semble plus vouloir démarrer ce matin. Solution  : échange standard à savoir réinstaller une instance fraîche du thème avant étude des termes spécifiques à traduire dans le javascript.
+Précédemment fonctionnel, il ne semble plus vouloir démarrer ce matin. Solution prévue : échange standard à savoir réinstaller une instance fraîche du thème, avant étude des termes spécifiques à traduire en français dans le javascript.
 
 
 #### Note sur les blocs de construction indieweb
 
-Une [check-list des blocs de construction](http://indiewebcamp.com/building-blocks-fr) reste à compléter. 
-Pour cette section, je prévois d'aller chercher quelque inspiration sur les instances de quelques [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
+Avant décollage, penser à faire [check-list complète des blocs de construction](http://indiewebcamp.com/building-blocks-fr). L'expérimentation et l'inspiration s'opéreront sur les terroirs digitaux de mes [collègues indieweb ayant choisi d'avancer Jekyll](http://indiewebcamp.com/Jekyll) 
 
 
-## ChronoRêve pour les vacances 
+## ChronoRêve pour la rentrée 2014 
 
 * évaluer ce thème "photo + mots" avec quelques visuels personnels de deux grosses *machines de destruction* évoluant sous mes fenêtres...
-* essayer d'implémenter [webmention](http://indiewebcamp.com/webmention) avec le service [https://webmention.herokuapp.com/](https://webmention.herokuapp.com/)
+* tenter une installation de [webmention](http://indiewebcamp.com/webmention) avec le service [https://webmention.herokuapp.com/](https://webmention.herokuapp.com/)
 
 
 ## Réagir 
 
-Le répertoire de travail est [accessible et ouvert sur GitHub](https://github.com/ChristopheDucamp/so-simple-theme-fr) pour toute *coopération sans coordination* : vos commentaires, idées, suggestions et/ou *fork* + *pull-request* sont bienvenus. (aide toute particulièrement attendue pour implémenter webmention.) 
+Le répertoire de travail est [accessible et ouvert sur GitHub](https://github.com/ChristopheDucamp/so-simple-theme-fr) pour toute *coopération sans coordination*. Vos commentaires, idées, suggestions et/ou *fork* + *pull-request* avec une écoute attentive à toute proposition d'implémentation de webmention :p)
  
 ### Ailleurs 
 
 Une copie de ce post <span class="u-syndication">[a été distribuée sur twitter](https://twitter.com/xtof_fr/status/415266536840904704)</span>
 
-Bonnes fêtes de fin d'année et à plus tard.
+Bonnes fêtes de fin d'année et à bientôt.
