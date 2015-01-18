@@ -7,7 +7,7 @@ modified: 2013-12-23
 tags: [Jekyll, thème, install, setup, installation, démarrage]
 ---
 
-Notes Générales et suggestions pour personnaliser **So Simple Theme**.
+Notes Générales et suggestions pour personnaliser le thème **So Simple**.
 
 ## Installation Basique pour un Nouveau Site Jekyll
 
